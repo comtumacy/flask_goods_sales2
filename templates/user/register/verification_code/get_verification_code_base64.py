@@ -9,12 +9,9 @@ import base64
 
 def get_random_color():
     # 获取一个随机颜色(r,g,b)格式的
-    # c1 = random.randint(0, 255)
-    # c2 = random.randint(0, 255)
-    # c3 = random.randint(0, 255)
-    c1 = 253
-    c2 = 211
-    c3 = 212
+    c1 = random.randint(0, 255)
+    c2 = random.randint(0, 255)
+    c3 = random.randint(0, 255)
     return c1, c2, c3
 
 
