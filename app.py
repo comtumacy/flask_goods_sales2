@@ -22,7 +22,7 @@ appContent.push()
 redis = StrictRedis(host='localhost', port=6379, db=0, password='Liyitong97!')
 redis.set('SECRET_KEY', current_app.config['SECRET_KEY'])
 appContent.pop()
-
+abcssssdss
 
 # 跨域请求设置
 CORS(app, resources=r'/*')
