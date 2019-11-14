@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36a4c71f-236a-42fa-8595-e492a70b2638" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/main/seller/add_goods/add_photo/add_photo_sql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/seller/delete_goods/delete_goods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/seller/delete_goods/delete_goods_sql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/seller/look_goods/look_goods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/seller/look_goods/look_goods_sql.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/user/login/find_username_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/user/login/find_username_sql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/user/login/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/user/login/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/user/login/login_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/user/login/login_sql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/user/out_login/out_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/user/out_login/out_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/user/register/find_duplication_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/user/register/find_duplication_sql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/user/register/register.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/user/register/register.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/user/register/register_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/user/register/register_sql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/user/register/verification_code/FRADM.TTF" beforeDir="false" afterPath="$PROJECT_DIR$/main/user/register/verification_code/FRADM.TTF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/user/register/verification_code/get_verification_code_base64.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/user/register/verification_code/get_verification_code_base64.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/user/register/verification_code/verification_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/user/register/verification_code/verification_code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/seller/add_goods/add_book_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/seller/add_goods/add_book_sql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/seller/add_goods/add_good.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/seller/add_goods/add_good.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/seller/add_goods/add_phone_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/seller/add_goods/add_phone_sql.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +23,7 @@
     <SUITE FILE_PATH="coverage/goods_sale$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1573660231638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/goods_sale$app.coverage" NAME="app Coverage Results" MODIFIED="1573027327363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/goods_sale$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1573030229652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/goods_sale$look_goods_sql.coverage" NAME="look_goods_sql Coverage Results" MODIFIED="1573744956831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/seller/look_goods" />
     <SUITE FILE_PATH="coverage/goods_sale$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1573657445771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/goods_sale$test.coverage" NAME="test Coverage Results" MODIFIED="1573657538004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/goods_sale$select_type_sql.coverage" NAME="select_type_sql Coverage Results" MODIFIED="1573661052249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/seller/add_goods" />
@@ -46,7 +45,38 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#15#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/seller/look_goods/look_goods_sql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1430">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/seller/delete_goods/delete_goods_sql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="5" column="20" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,9 +90,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>&quot;</find>
+      <find>tup2</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
+      <replace>result2</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -97,12 +129,21 @@
         <option value="$PROJECT_DIR$/main/seller/add_goods/add_good/add_book_sql.py" />
         <option value="$PROJECT_DIR$/批量插入商品登记数据.py" />
         <option value="$PROJECT_DIR$/main/seller/add_goods/add_info_to_goodsmanagement.py" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/main/seller/add_goods/select_type/select_type_sql.py" />
         <option value="$PROJECT_DIR$/main/seller/add_goods/add_info_to_management_sql.py" />
-        <option value="$PROJECT_DIR$/main/seller/add_goods/add_book_sql.py" />
-        <option value="$PROJECT_DIR$/main/seller/add_goods/add_phone_sql.py" />
+        <option value="$PROJECT_DIR$/main/seller/add_goods/add_photo/add_photo_sql.py" />
+        <option value="$PROJECT_DIR$/main/seller/add_goods/add_photo/add_photo.py" />
+        <option value="$PROJECT_DIR$/批量加状态.py" />
+        <option value="$PROJECT_DIR$/批量加库存.py" />
         <option value="$PROJECT_DIR$/main/seller/add_goods/add_good.py" />
+        <option value="$PROJECT_DIR$/main/seller/add_goods/add_phone_sql.py" />
+        <option value="$PROJECT_DIR$/main/seller/add_goods/add_book_sql.py" />
+        <option value="$PROJECT_DIR$/main/seller/delect_goods/delect_goods.py" />
+        <option value="$PROJECT_DIR$/main/seller/delete_goods/delete_goods_sql.py" />
+        <option value="$PROJECT_DIR$/main/seller/delete_goods/delete_goods.py" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/main/seller/look_goods/look_goods.py" />
+        <option value="$PROJECT_DIR$/main/seller/look_goods/look_goods_sql.py" />
       </list>
     </option>
   </component>
@@ -111,12 +152,15 @@
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,8 +191,7 @@
               <item name="goods_sale" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="seller" type="462c0819:PsiDirectoryNode" />
-              <item name="add_goods" type="462c0819:PsiDirectoryNode" />
-              <item name="select_type" type="462c0819:PsiDirectoryNode" />
+              <item name="delete_goods" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="goods_sale" type="b2602c69:ProjectViewProjectNode" />
@@ -189,7 +232,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,7 +271,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.add_phone_sql">
+  <component name="RunManager" selected="Python.look_goods_sql">
     <configuration name="批量插入商品登记数据" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="goods_sale" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -266,6 +308,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/seller/add_goods/add_phone_sql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="look_goods_sql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="goods_sale" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main/seller/look_goods" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/seller/look_goods/look_goods_sql.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -318,28 +382,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="goods_sale" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\goods_sale\批量插入商品登记数据.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="goods_sale" type="Python.FlaskServer" factoryName="Flask server">
       <module name="goods_sale" />
       <option name="target" value="$PROJECT_DIR$/app.py" />
@@ -357,11 +399,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.look_goods_sql" />
         <item itemvalue="Python.add_phone_sql" />
         <item itemvalue="Python.批量插入商品登记数据" />
         <item itemvalue="Python.select_type_sql" />
         <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -387,11 +429,13 @@
       <workItem from="1573638234311" duration="14684000" />
       <workItem from="1573692046866" duration="6981000" />
       <workItem from="1573717702609" duration="6161000" />
+      <workItem from="1573729966419" duration="496000" />
+      <workItem from="1573730499917" duration="11016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45203000" />
+    <option name="totallyTimeSpent" value="56715000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -404,13 +448,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18976545" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19402985" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31453362" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31561822" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -550,13 +595,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/批量插入商品登记数据.py">
+    <entry file="file://$PROJECT_DIR$/main/seller/add_goods/select_type/select_type_sql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="32" column="111" selection-start-line="32" selection-start-column="111" selection-end-line="32" selection-end-column="111" />
-          <folding>
-            <element signature="e#15#29#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="714">
+          <caret line="70" column="22" lean-forward="true" selection-end-line="71" />
         </state>
       </provider>
     </entry>
@@ -570,17 +612,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/seller/add_goods/select_type/select_type_sql.py">
+    <entry file="file://$PROJECT_DIR$/main/seller/add_goods/add_photo/add_photo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="70" column="22" lean-forward="true" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+        <state relative-caret-position="754">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="40" />
+          <folding>
+            <element signature="e#15#66#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/seller/add_goods/add_book_sql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        <state relative-caret-position="416">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -591,30 +636,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/seller/add_goods/add_phone_sql.py">
+    <entry file="file://$PROJECT_DIR$/批量加库存.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="64" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="64" />
+          <folding>
+            <element signature="e#15#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/批量插入商品登记数据.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="e#15#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/seller/add_goods/add_photo/add_photo_sql.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/seller/add_goods/add_good.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="39" selection-end-column="9" />
+          <folding>
+            <element signature="e#15#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/seller/add_goods/add_phone_sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="10" lean-forward="true" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/seller/delete_goods/delete_goods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <element signature="e#15#66#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+        <state relative-caret-position="170">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#15#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/seller/add_goods/add_good.py">
+    <entry file="file://$PROJECT_DIR$/main/seller/look_goods/look_goods.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/seller/delete_goods/delete_goods_sql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1846">
-          <caret line="65" column="121" selection-start-line="65" selection-start-column="121" selection-end-line="65" selection-end-column="121" />
-          <folding>
-            <element signature="e#15#66#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="130">
+          <caret line="5" column="20" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/seller/look_goods/look_goods_sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1430">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>

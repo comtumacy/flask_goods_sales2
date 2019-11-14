@@ -3,12 +3,12 @@ import pymysql
 
 
 # 插入书籍信息
-def add_phone_sql(title, price, good_title, good_weight, good_from, good_system, signal, screen_size, img, stid):
+def add_phone_sql(title, price, good_title, good_weight, good_from, good_system, signal, screen_size, img, stid, number):
     # 插入数据
     conn = pymysql.connect(host='139.155.33.105', port=2707, user='root', password='Liyitong97!', db='goods',
                            charset='utf8')
     cursor = conn.cursor()
-    sql1 = "INSERT INTO phoneinfo (title,Price,good_title,good_weight,good_from,good_system,`signal`,screen_size,img,stid) VALUES ('{}',{},'{}','{}','{}','{}','{}','{}','{}',{})".format(title, price, good_title, good_weight, good_from, good_system, signal, screen_size, img, stid)
+    sql1 = "INSERT INTO phoneinfo (title,Price,good_title,good_weight,good_from,good_system,`signal`,screen_size,img,stid,`number`) VALUES ('{}',{},'{}','{}','{}','{}','{}','{}','{}',{},{}})".format(title, price, good_title, good_weight, good_from, good_system, signal, screen_size, img, stid, number)
     cursor.execute(sql1)
     conn.commit()
     cursor.close()
