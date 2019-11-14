@@ -4,9 +4,9 @@ from redis import StrictRedis
 from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
 import json
 # 查询是否有此用户名
-from templates.user.login.find_username_sql import find_duplication_sql
+from main.user.login.find_username_sql import find_duplication_sql
 # 用户密码验证
-from templates.user.login.login_sql import login_sql
+from main.user.login.login_sql import login_sql
 
 # 创建一个蓝图的对象，蓝图就是一个小模块的概念
 login = Blueprint("login", __name__)

@@ -4,7 +4,7 @@ import pymysql
 
 # 查询是否有此用户名
 def find_duplication_sql(Uname):
-    conn = pymysql.connect(host='139.155.33.105', port=2707, user='root', password='Liyitong97!', db='goods',
+    conn = pymysql.connect(host='139.155.33.105', port=2707, user='root', password='Liyitong97!', db='goodsUser',
                            charset='utf8')
     cursor = conn.cursor()
     sql1 = "select * FROM users WHERE Uname = '{}';".format(Uname)

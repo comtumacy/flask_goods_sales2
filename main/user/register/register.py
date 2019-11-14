@@ -3,9 +3,9 @@ from flask import Blueprint, make_response, request
 from redis import StrictRedis
 import json
 # 导入查询重复值SQL文件
-from templates.user.register.find_duplication_sql import find_duplication_sql
+from main.user.register.find_duplication_sql import find_duplication_sql
 # 导入注册SQL文件
-from templates.user.register.register_sql import register_sql
+from main.user.register.register_sql import register_sql
 
 
 # 创建一个蓝图的对象，蓝图就是一个小模块的概念
