@@ -2,7 +2,7 @@
 import pymysql
 
 
-# 查询卖家商品信息
+# 模糊查询卖家商品信息
 def look_good_like_sql(find_content, Uname):
     # 查询该卖家的商品ID总和
     ids_list = []

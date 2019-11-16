@@ -2,7 +2,7 @@
 import pymysql
 
 
-# 查询卖家商品信息
+# 根据商品id精确查询商品
 def look_good_id_sql(good_type, good_id, Uname):
     conn = pymysql.connect(host='139.155.33.105', port=2707, user='root', password='Liyitong97!', db='goods',
                            charset='utf8')

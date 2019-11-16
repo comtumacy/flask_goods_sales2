@@ -6,8 +6,6 @@ import pymysql
 def look_goods_sql(username):
     look_goods_list = []
     for k in range(2):
-        # 插入数据
-        # 书籍数据整合、收集数据整合
         conn = pymysql.connect(host='139.155.33.105', port=2707, user='root', password='Liyitong97!', db='goodsseller',
                                charset='utf8')
         cursor = conn.cursor()
