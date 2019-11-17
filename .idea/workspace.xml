@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36a4c71f-236a-42fa-8595-e492a70b2638" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/main/seller/ratings/delete_ratings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/seller/ratings/delete_ratings_sql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/seller/ratings/modify_ratings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/seller/ratings/modify_ratings_sql.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/seller/add_goods/add_book_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/seller/add_goods/add_book_sql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/seller/add_goods/add_info_to_management_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/seller/add_goods/add_info_to_management_sql.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/seller/delete_goods/delete_goods_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/seller/delete_goods/delete_goods_sql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/seller/look_goods/look_good_id_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/seller/look_goods/look_good_id_sql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/seller/look_goods/look_good_like_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/seller/look_goods/look_good_like_sql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/seller/look_goods/look_goods_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/seller/look_goods/look_goods_sql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/seller/ratings/get_ratings.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/seller/ratings/get_ratings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/seller/ratings/get_ratings_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/seller/ratings/get_ratings_sql.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,11 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="664">
-              <caret line="60" column="34" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="34" />
+            <state relative-caret-position="260">
+              <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
               <folding>
                 <element signature="e#15#51#0" expanded="true" />
               </folding>
@@ -62,10 +59,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/seller/ratings/get_ratings.py">
+        <entry file="file://$PROJECT_DIR$/main/seller/ratings/delete_ratings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+            <state relative-caret-position="482">
+              <caret line="38" column="78" selection-start-line="38" selection-start-column="76" selection-end-line="38" selection-end-column="78" />
               <folding>
                 <element signature="e#15#66#0" expanded="true" />
               </folding>
@@ -73,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main/seller/ratings/get_ratings_sql.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/seller/ratings/delete_ratings_sql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1300">
-              <caret line="50" column="39" lean-forward="true" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
+            <state relative-caret-position="104">
+              <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -110,8 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/user/register/find _duplication.py" />
-        <option value="$PROJECT_DIR$/templates/user/register/find _duplication_sql.py" />
         <option value="$PROJECT_DIR$/templates/user/register/verification_code/verification_code.py" />
         <option value="$PROJECT_DIR$/templates/user/register/register.py" />
         <option value="$PROJECT_DIR$/templates/user/login/login.py" />
@@ -151,19 +146,26 @@
         <option value="$PROJECT_DIR$/main/seller/add_goods/add_book_sql.py" />
         <option value="$PROJECT_DIR$/main/seller/add_goods/add_info_to_management_sql.py" />
         <option value="$PROJECT_DIR$/main/seller/look_goods/look_goods_sql.py" />
-        <option value="$PROJECT_DIR$/main/seller/delete_goods/delete_goods_sql.py" />
         <option value="$PROJECT_DIR$/main/seller/look_goods/look_good_id_sql.py" />
         <option value="$PROJECT_DIR$/main/seller/look_goods/look_good_like_sql.py" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/main/seller/ratings/get_ratings.py" />
         <option value="$PROJECT_DIR$/main/seller/ratings/get_ratings_sql.py" />
+        <option value="$PROJECT_DIR$/main/seller/ratings/modify_ratings_sql.py" />
+        <option value="$PROJECT_DIR$/main/seller/ratings/modify_ratings.py" />
+        <option value="$PROJECT_DIR$/main/seller/delete_goods/delete_goods_sql.py" />
+        <option value="$PROJECT_DIR$/main/seller/ratings/delect_ratings_sql.py" />
+        <option value="$PROJECT_DIR$/main/seller/ratings/delect_ratings.py" />
+        <option value="$PROJECT_DIR$/main/seller/ratings/delete_ratings_sql.py" />
+        <option value="$PROJECT_DIR$/main/seller/ratings/delete_ratings.py" />
+        <option value="$PROJECT_DIR$/app.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="363" />
+    <option name="y" value="43" />
+    <option name="width" value="1500" />
+    <option name="height" value="910" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -198,6 +200,22 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="seller" type="462c0819:PsiDirectoryNode" />
               <item name="add_goods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_sale" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_sale" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="seller" type="462c0819:PsiDirectoryNode" />
+              <item name="add_goods" type="462c0819:PsiDirectoryNode" />
+              <item name="add_photo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_sale" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_sale" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="seller" type="462c0819:PsiDirectoryNode" />
+              <item name="add_goods" type="462c0819:PsiDirectoryNode" />
+              <item name="select_type" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="goods_sale" type="b2602c69:ProjectViewProjectNode" />
@@ -268,7 +286,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../face" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -460,12 +478,13 @@
       <workItem from="1573730499917" duration="11016000" />
       <workItem from="1573778641880" duration="7021000" />
       <workItem from="1573828371373" duration="9361000" />
-      <workItem from="1573881201885" duration="2530000" />
+      <workItem from="1573881201885" duration="2886000" />
+      <workItem from="1573896959118" duration="9639000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75627000" />
+    <option name="totallyTimeSpent" value="85622000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -480,7 +499,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20042644" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20255864" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -680,16 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/seller/delete_goods/delete_goods.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-312">
-          <caret selection-end-line="37" selection-end-column="9" />
-          <folding>
-            <element signature="e#15#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/seller/look_goods/look_goods.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -731,13 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/seller/delete_goods/delete_goods_sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/seller/look_goods/look_good_id_sql.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -769,30 +771,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
+    <entry file="file://$PROJECT_DIR$/main/seller/ratings/modify_ratings_sql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
-          <caret line="60" column="34" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="34" />
-          <folding>
-            <element signature="e#15#51#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="182">
+          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/seller/ratings/get_ratings.py">
+    <entry file="file://$PROJECT_DIR$/main/seller/ratings/modify_ratings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+        <state relative-caret-position="612">
+          <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="142" />
           <folding>
             <element signature="e#15#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main/seller/delete_goods/delete_goods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="42" column="15" lean-forward="true" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+          <folding>
+            <element signature="e#15#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/seller/delete_goods/delete_goods_sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/seller/ratings/get_ratings_sql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="50" column="39" lean-forward="true" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
+        <state relative-caret-position="560">
+          <caret line="61" selection-start-line="61" selection-end-line="62" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/seller/ratings/delete_ratings_sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/seller/ratings/get_ratings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="37" selection-end-column="9" />
+          <folding>
+            <element signature="e#15#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/seller/ratings/delete_ratings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="38" column="78" selection-start-line="38" selection-start-column="76" selection-end-line="38" selection-end-column="78" />
+          <folding>
+            <element signature="e#15#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding>
+            <element signature="e#15#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

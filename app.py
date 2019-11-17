@@ -22,8 +22,10 @@ from main.seller.delete_goods.delete_goods import delete_goods  # 删除商品
 from main.seller.look_goods.look_goods import look_goods  # 查询商品
 from main.seller.look_goods.look_good_id import look_good_id  # 根据ID精确查找此用户的商品
 from main.seller.look_goods.look_good_like import look_good_like  # 模糊查找此用户的商品
-# 卖家模块---获取评论
+# 卖家模块---评论
 from main.seller.ratings.get_ratings import get_ratings  # 根据商品ID获取评论
+from main.seller.ratings.modify_ratings import modify_ratings  # 修改评论
+from main.seller.ratings.delete_ratings import delete_ratings  # 根据商品id删除评论
 
 
 # 设置SECRET_KEY为随机数
@@ -57,8 +59,10 @@ app.register_blueprint(delete_goods, url_prefix='/seller')  # 删除商品
 app.register_blueprint(look_goods, url_prefix='/seller')  # 查询商品
 app.register_blueprint(look_good_id, url_prefix='/seller')  # 根据ID精确查找此用户的商品
 app.register_blueprint(look_good_like, url_prefix='/seller')  # 模糊查找此用户的商品
-# 卖家模块---获取评论
+# 卖家模块---评论
 app.register_blueprint(get_ratings, url_prefix='/seller')  # 根据商品ID获取评论
+app.register_blueprint(modify_ratings, url_prefix='/seller')  # 修改评论
+app.register_blueprint(delete_ratings, url_prefix='/seller')  # 根据商品id删除评论
 
 if __name__ == '__main__':
     app.run(host='172.27.0.13', port=5002, debug=True)

@@ -13,5 +13,3 @@ def delete_goods_sql(table_name, good_id):
     conn.commit()
     cursor.close()
     conn.close()
-
-    return num
