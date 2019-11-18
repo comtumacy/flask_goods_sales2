@@ -26,6 +26,12 @@ from main.seller.look_goods.look_good_like import look_good_like  # 模糊查找
 from main.seller.ratings.get_ratings import get_ratings  # 根据商品ID获取评论
 from main.seller.ratings.modify_ratings import modify_ratings  # 修改评论
 from main.seller.ratings.delete_ratings import delete_ratings  # 根据商品id删除评论
+# 订单模块
+# 订单模块---查询订单
+from main.order.look_order.look_order import look_order  # 查询订单
+from main.order.look_order.look_order_super import look_order_super  # 超管订单
+# 公共模块
+from main.public.public_get_goods.public_get_goods import public_get_goods  # 获取主页商品栏商品
 
 
 # 设置SECRET_KEY为随机数
@@ -63,6 +69,12 @@ app.register_blueprint(look_good_like, url_prefix='/seller')  # 模糊查找此�
 app.register_blueprint(get_ratings, url_prefix='/seller')  # 根据商品ID获取评论
 app.register_blueprint(modify_ratings, url_prefix='/seller')  # 修改评论
 app.register_blueprint(delete_ratings, url_prefix='/seller')  # 根据商品id删除评论
+# 订单模块
+# 订单模块---查询订单
+app.register_blueprint(look_order, url_prefix='/order')  # 查询订单
+app.register_blueprint(look_order_super, url_prefix='/order')  # 超管查询订单
+# 公共模块
+app.register_blueprint(public_get_goods, url_prefix='/public')  # 获取主页商品栏商品
 
 if __name__ == '__main__':
     app.run(host='172.27.0.13', port=5002, debug=True)
