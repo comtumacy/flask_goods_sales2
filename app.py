@@ -32,6 +32,8 @@ from main.order.look_order.look_order import look_order  # 查询订单
 from main.order.look_order.look_order_super import look_order_super  # 超管订单
 # 公共模块
 from main.public.public_get_goods.public_get_goods import public_get_goods  # 获取主页商品栏商品
+from main.public.public_get_goods.public_get_goods_detailed import public_get_goods_detailed  # 获取分类商品分页（20）商品
+from main.public.public_get_goods.public_get_goods_id import public_get_goods_id  # 根据id获取商品和商品评论
 
 
 # 设置SECRET_KEY为随机数
@@ -75,6 +77,8 @@ app.register_blueprint(look_order, url_prefix='/order')  # 查询订单
 app.register_blueprint(look_order_super, url_prefix='/order')  # 超管查询订单
 # 公共模块
 app.register_blueprint(public_get_goods, url_prefix='/public')  # 获取主页商品栏商品
+app.register_blueprint(public_get_goods_detailed, url_prefix='/public')  # 获取分类商品分页（20）商品
+app.register_blueprint(public_get_goods_id, url_prefix='/public')  # 根据id获取商品和商品评论
 
 if __name__ == '__main__':
     app.run(host='172.27.0.13', port=5002, debug=True)

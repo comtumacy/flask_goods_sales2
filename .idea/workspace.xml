@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36a4c71f-236a-42fa-8595-e492a70b2638" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/order/add_order/add_order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/order/add_order/add_order_sql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/order/look_order/look_order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/order/look_order/look_order_sql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/order/look_order/look_order_super.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/order/look_order/look_order_super_sql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_sql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_detailed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_detailed_sql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_id.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_id_sql.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
@@ -23,8 +19,10 @@
     <SUITE FILE_PATH="coverage/goods_sale$look_good_id_sql.coverage" NAME="look_good_id_sql Coverage Results" MODIFIED="1573828999848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/seller/look_goods" />
     <SUITE FILE_PATH="coverage/goods_sale$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1573660231638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/goods_sale$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1573030229652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/goods_sale$public_get_goods_id_sql.coverage" NAME="public_get_goods_id_sql Coverage Results" MODIFIED="1574182403156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/public/public_get_goods" />
     <SUITE FILE_PATH="coverage/goods_sale$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1573657445771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/goods_sale$add_phone_sql.coverage" NAME="add_phone_sql Coverage Results" MODIFIED="1573701994865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/seller/add_goods" />
+    <SUITE FILE_PATH="coverage/goods_sale$public_get_goods_detailed_sql.coverage" NAME="public_get_goods_detailed_sql Coverage Results" MODIFIED="1574155956145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/public/public_get_goods" />
     <SUITE FILE_PATH="coverage/goods_sale$public_get_goods_sql.coverage" NAME="public_get_goods_sql Coverage Results" MODIFIED="1574041601738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/public/public_get_goods" />
     <SUITE FILE_PATH="coverage/goods_sale$app.coverage" NAME="app Coverage Results" MODIFIED="1573027327363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/goods_sale$get_ratings_sql.coverage" NAME="get_ratings_sql Coverage Results" MODIFIED="1573882621830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/seller/ratings" />
@@ -53,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="76" column="75" selection-start-line="76" selection-start-column="66" selection-end-line="76" selection-end-column="75" />
+            <state relative-caret-position="612">
+              <caret line="80" column="35" lean-forward="true" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
               <folding>
                 <element signature="e#15#51#0" expanded="true" />
               </folding>
@@ -63,22 +61,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/public/public_get_goods/public_get_goods.py">
+        <entry file="file://$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_id.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" column="46" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="46" />
-              <folding>
-                <element signature="e#15#66#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="78">
+              <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_sql.py">
+        <entry file="file://$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_id_sql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="31" column="39" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="39" />
+            <state relative-caret-position="560">
+              <caret line="69" column="18" lean-forward="true" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -111,12 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/main/seller/add_goods/select_type_sql.py" />
-        <option value="$PROJECT_DIR$/main/seller/add_goods/select_type/select_type.py" />
-        <option value="$PROJECT_DIR$/main/seller/add_goods/add_good/add_good.py" />
-        <option value="$PROJECT_DIR$/main/seller/add_goods/add_good/add_good_sql.py" />
-        <option value="$PROJECT_DIR$/main/seller/add_goods/add_good/add_book_sql.py" />
-        <option value="$PROJECT_DIR$/批量插入商品登记数据.py" />
         <option value="$PROJECT_DIR$/main/seller/add_goods/add_info_to_goodsmanagement.py" />
         <option value="$PROJECT_DIR$/main/seller/add_goods/select_type/select_type_sql.py" />
         <option value="$PROJECT_DIR$/main/seller/add_goods/add_photo/add_photo_sql.py" />
@@ -159,9 +148,15 @@
         <option value="$PROJECT_DIR$/main/order/add_order/add_order.py" />
         <option value="$PROJECT_DIR$/main/order/add_order/add_order_sql.py" />
         <option value="$PROJECT_DIR$/main/public/public_get_goods.py" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods.py" />
+        <option value="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_Detailed.py" />
+        <option value="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_Detailed_sql.py" />
         <option value="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_sql.py" />
+        <option value="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_detailed_sql.py" />
+        <option value="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_detailed.py" />
+        <option value="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_id.py" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_id_sql.py" />
       </list>
     </option>
   </component>
@@ -217,6 +212,19 @@
               <item name="seller" type="462c0819:PsiDirectoryNode" />
               <item name="look_goods" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="goods_sale" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_sale" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_sale" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_sale" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -260,7 +268,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.public_get_goods_sql">
+  <component name="RunManager" selected="Python.public_get_goods_id_sql">
     <configuration name="get_ratings_sql" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="goods_sale" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -275,28 +283,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/seller/ratings/get_ratings_sql.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="look_good_id_sql" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="goods_sale" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main/seller/look_goods" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/seller/look_goods/look_good_id_sql.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -327,7 +313,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="look_goods_sql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="public_get_goods_detailed_sql" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="goods_sale" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -335,12 +321,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main/seller/look_goods" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main/public/public_get_goods" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/seller/look_goods/look_goods_sql.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_detailed_sql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="public_get_goods_id_sql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="goods_sale" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main/public/public_get_goods" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_id_sql.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -388,11 +396,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.public_get_goods_id_sql" />
+        <item itemvalue="Python.public_get_goods_detailed_sql" />
         <item itemvalue="Python.public_get_goods_sql" />
         <item itemvalue="Python.get_ratings_sql" />
         <item itemvalue="Python.look_good_like_sql" />
-        <item itemvalue="Python.look_good_id_sql" />
-        <item itemvalue="Python.look_goods_sql" />
       </list>
     </recent_temporary>
   </component>
@@ -426,11 +434,13 @@
       <workItem from="1573896959118" duration="9639000" />
       <workItem from="1573956978585" duration="10886000" />
       <workItem from="1574039854340" duration="5046000" />
+      <workItem from="1574125072928" duration="7200000" />
+      <workItem from="1574164069086" duration="7917000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101554000" />
+    <option name="totallyTimeSpent" value="116671000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -444,12 +454,12 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20682302" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.141258" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29826465" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31453362" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -648,16 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/seller/look_goods/look_good_id.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="37" selection-end-column="9" />
-          <folding>
-            <element signature="e#15#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/seller/ratings/modify_ratings_sql.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -750,23 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/seller/look_goods/look_good_id_sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="96" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/user/login/login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="80" column="37" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="37" />
-          <folding>
-            <element signature="e#15#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/order/look_order/look_order_super_sql.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -822,20 +805,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
+    <entry file="file://$PROJECT_DIR$/main/user/login/login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="76" column="75" selection-start-line="76" selection-start-column="66" selection-end-line="76" selection-end-column="75" />
+        <state relative-caret-position="520">
+          <caret line="62" column="47" lean-forward="true" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
           <folding>
-            <element signature="e#15#51#0" expanded="true" />
+            <element signature="e#15#66#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_detailed_sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="68" column="38" lean-forward="true" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_detailed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#15#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/seller/look_goods/look_good_id_sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/public/public_get_goods/public_get_goods.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="46" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="46" />
+        <state relative-caret-position="104">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#15#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/seller/look_goods/look_good_id.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="30" column="46" lean-forward="true" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
           <folding>
             <element signature="e#15#66#0" expanded="true" />
           </folding>
@@ -844,8 +861,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_sql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="31" column="39" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="39" />
+        <state relative-caret-position="182">
+          <caret line="7" column="22" lean-forward="true" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="80" column="35" lean-forward="true" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
+          <folding>
+            <element signature="e#15#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_id.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_id_sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="69" column="18" lean-forward="true" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
         </state>
       </provider>
     </entry>
