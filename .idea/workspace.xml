@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36a4c71f-236a-42fa-8595-e492a70b2638" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_detailed.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_detailed_sql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_id.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_id_sql.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_detailed_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_detailed_sql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_id_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_id_sql.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="80" column="35" lean-forward="true" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
+            <state relative-caret-position="586">
+              <caret line="80" column="34" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
               <folding>
                 <element signature="e#15#51#0" expanded="true" />
               </folding>
@@ -64,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_id.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="78">
-              <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+              <caret line="3" column="46" lean-forward="true" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -72,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_id_sql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="69" column="18" lean-forward="true" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
+            <state relative-caret-position="482">
+              <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -152,10 +150,10 @@
         <option value="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_Detailed.py" />
         <option value="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_Detailed_sql.py" />
         <option value="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_sql.py" />
-        <option value="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_detailed_sql.py" />
         <option value="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_detailed.py" />
         <option value="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_id.py" />
         <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_detailed_sql.py" />
         <option value="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_id_sql.py" />
       </list>
     </option>
@@ -173,7 +171,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,6 +226,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -436,11 +434,15 @@
       <workItem from="1574039854340" duration="5046000" />
       <workItem from="1574125072928" duration="7200000" />
       <workItem from="1574164069086" duration="7917000" />
+      <workItem from="1574210408840" duration="1244000" />
+      <workItem from="1574349105431" duration="599000" />
+      <workItem from="1574584131372" duration="634000" />
+      <workItem from="1574696205212" duration="2880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116671000" />
+    <option name="totallyTimeSpent" value="122028000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -453,8 +455,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.141258" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14765458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -815,23 +818,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_detailed_sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="68" column="38" lean-forward="true" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_detailed.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#15#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/seller/look_goods/look_good_id_sql.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
@@ -866,10 +852,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_detailed_sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_detailed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="49" lean-forward="true" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="80" column="35" lean-forward="true" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
+        <state relative-caret-position="586">
+          <caret line="80" column="34" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
           <folding>
             <element signature="e#15#51#0" expanded="true" />
           </folding>
@@ -879,14 +879,14 @@
     <entry file="file://$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_id.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
-          <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <caret line="3" column="46" lean-forward="true" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_id_sql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="69" column="18" lean-forward="true" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
+        <state relative-caret-position="482">
+          <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
         </state>
       </provider>
     </entry>

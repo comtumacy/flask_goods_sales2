@@ -82,3 +82,4 @@ app.register_blueprint(public_get_goods_id, url_prefix='/public')  # 根据id获
 
 if __name__ == '__main__':
     app.run(host='172.27.0.13', port=5002, debug=True)
+    # app.run()

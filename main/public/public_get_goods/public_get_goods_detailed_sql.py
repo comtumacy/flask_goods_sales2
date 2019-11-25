@@ -29,7 +29,7 @@ def public_get_goods_detailed_sql(good_type, content, page_num):
         page_num_all = cursor.fetchall()[0][0]
 
     elif good_type == 2:
-        sql1 = "SELECT `good_no`,`title`,price,img FROM (SELECT * FROM `phoneinfo` WHERE Stid LIKE '{}%')  as  tmp LIMIT {},20".format(type_id, page_num)
+        sql1 = "SELECT `goodId`,`title`,price,img FROM (SELECT * FROM `phoneinfo` WHERE Stid LIKE '{}%')  as  tmp LIMIT {},20".format(type_id, page_num)
         cursor.execute(sql1)
         conn.commit()
         result1 = cursor.fetchall()
@@ -69,4 +69,4 @@ def public_get_goods_detailed_sql(good_type, content, page_num):
     return goods_content, page_num_all
 
 
-public_get_goods_detailed_sql(1, '小说', 1)
+# public_get_goods_detailed_sql(1, '小说', 1)

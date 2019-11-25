@@ -7,6 +7,7 @@ def public_get_goods_id_sql(good_type, good_id):
     conn = pymysql.connect(host='139.155.33.105', port=2707, user='root', password='Liyitong97!', db='goods',
                            charset='utf8')
     cursor = conn.cursor()
+    good_type = int(good_type)
 
     if good_type == 1:
         sql1 = "SELECT * FROM bookinfo WHERE goodId = {}".format(good_id)
@@ -46,7 +47,14 @@ def public_get_goods_id_sql(good_type, good_id):
             all_dict = dict(zip(result2list, tup_list))
             all_list.append(all_dict)
 
-    sql3 = "SELECT * FROM ratings WHERE Rgoodsno = {}".format(good_id)
+    if good_type == 1:
+        sql3 = "SELECT * FROM ratings WHERE Rgoodsno = {}".format(good_id)
+    else:
+        sql_get_id = "SELECT good_no FROM `phoneinfo`  WHERE goodId = {}".format(good_id)
+        cursor.execute(sql_get_id)
+        conn.commit()
+        phone_id = cursor.fetchall()[0][0]
+        sql3 = "SELECT * FROM ratings WHERE Rgoodsno = {}".format(phone_id)
     cursor.execute(sql3)
     conn.commit()
     result3 = cursor.fetchall()
