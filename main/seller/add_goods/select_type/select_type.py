@@ -34,6 +34,7 @@ def select_type_fun():
         #  设置HTTP状态码
         response.status_code = 401
     else:
+        redis.expire(username, 3600)
         result = select_type_sql(get_data['num'], get_data['content'])
         # 设置返回对象
         response = make_response(json.dumps(result))

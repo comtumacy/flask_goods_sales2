@@ -11,6 +11,14 @@ from main.user.register.verification_code.verification_code import verification_
 from main.user.register.register import register  # 注册
 from main.user.login.login import login  # 登录
 from main.user.out_login.out_login import out_login  # 退出登录
+# 买家模块
+# 买家模块---收藏
+from main.buyer.add_Favorites.add_favorites import add_favorites  # 添加收藏
+from main.buyer.look_Favorites.look_favorites import look_favorites  # 查询该用户的收藏
+from main.buyer.delete_favorites.delete_favorites import delete_favorites  # 删除收藏
+# 买家模块---购买
+from main.buyer.buy_good.look_good import look_good  # 购买商品根据ID查询商品详情
+from main.buyer.buy_good.buy_good import buy_good  # 购买商品
 # 卖家模块
 # 卖家模块---添加商品
 from main.seller.add_goods.select_type.select_type import select_type  # 选择添加类型
@@ -34,6 +42,8 @@ from main.order.look_order.look_order_super import look_order_super  # 超管订
 from main.public.public_get_goods.public_get_goods import public_get_goods  # 获取主页商品栏商品
 from main.public.public_get_goods.public_get_goods_detailed import public_get_goods_detailed  # 获取分类商品分页（20）商品
 from main.public.public_get_goods.public_get_goods_id import public_get_goods_id  # 根据id获取商品和商品评论
+from main.public.get_user_info.get_user_info import get_user_info  # 根据用户名获取用户信息
+from main.public.modify_user_info.modify_user_info import modify_user_info  # 根据用户名修改用户信息
 
 
 # 设置SECRET_KEY为随机数
@@ -56,6 +66,14 @@ app.register_blueprint(verification_code, url_prefix='/user')  # 获取验证码
 app.register_blueprint(register, url_prefix='/user')  # 注册
 app.register_blueprint(login, url_prefix='/user')  # 登录
 app.register_blueprint(out_login, url_prefix='/user')  # 退出登录
+# 买家模块
+# 买家模块---收藏
+app.register_blueprint(add_favorites, url_prefix='/buyer')  # 添加收藏
+app.register_blueprint(look_favorites, url_prefix='/buyer')  # 查询该用户的收藏
+app.register_blueprint(delete_favorites, url_prefix='/buyer')  # 删除收藏
+# 买家模块---购买
+app.register_blueprint(look_good, url_prefix='/buyer')  # 购买商品根据ID查询商品详情
+app.register_blueprint(buy_good, url_prefix='/buyer')  # 购买商品
 # 卖家模块
 # 卖家模块---添加商品
 app.register_blueprint(select_type, url_prefix='/seller')  # 选择添加类型
@@ -76,9 +94,11 @@ app.register_blueprint(delete_ratings, url_prefix='/seller')  # 根据商品id�
 app.register_blueprint(look_order, url_prefix='/order')  # 查询订单
 app.register_blueprint(look_order_super, url_prefix='/order')  # 超管查询订单
 # 公共模块
-app.register_blueprint(public_get_goods, url_prefix='/public')  # 获取主页商品栏商品
-app.register_blueprint(public_get_goods_detailed, url_prefix='/public')  # 获取分类商品分页（20）商品
-app.register_blueprint(public_get_goods_id, url_prefix='/public')  # 根据id获取商品和商品评论
+app.register_blueprint(public_get_goods, url_prefix='/public')  # 获取主页商品栏商品，无需token
+app.register_blueprint(public_get_goods_detailed, url_prefix='/public')  # 获取分类商品分页（20）商品，无需token
+app.register_blueprint(public_get_goods_id, url_prefix='/public')  # 根据id获取商品和商品评论，无需token
+app.register_blueprint(get_user_info, url_prefix='/public')  # 根据用户名获取用户信息
+app.register_blueprint(modify_user_info, url_prefix='/public')  # 根据用户名修改用户信息
 
 if __name__ == '__main__':
     app.run(host='172.27.0.13', port=5002, debug=True)

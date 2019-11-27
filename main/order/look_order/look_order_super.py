@@ -36,6 +36,7 @@ def look_order_super_fun():
         return response
     # token对比成功
     else:
+        redis.expire(username, 3600)
         order_list = look_order_super_sql(get_data['content'])
         if len(order_list) == 0:
             post_data = {'info': '未查询到任何结果'}

@@ -36,6 +36,7 @@ def modify_ratings_fun():
         return response
     # token对比成功
     else:
+        redis.expire(username, 3600)
         modify_ratings_sql(get_data['type'], get_data['text'], get_data['start'], get_data['to_examine'], get_data['good_id'], get_data['no'])
         post_data = {'info': '修改成功'}
         #  返回的内容

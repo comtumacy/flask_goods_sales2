@@ -36,6 +36,7 @@ def delete_ratings_fun():
         return response
     # token对比成功
     else:
+        redis.expire(username, 3600)
         delete_ratings_sql(get_data['type'], get_data['good_id'], get_data['No'])
         post_data = {'info': '删除商品{}成功'.format(get_data['good_id'])}
         #  返回的内容

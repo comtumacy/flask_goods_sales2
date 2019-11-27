@@ -2,10 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36a4c71f-236a-42fa-8595-e492a70b2638" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/main/buyer/add_Favorites/add_favorites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/buyer/add_Favorites/add_favorites_sql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/buyer/buy_good/buy_good.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/buyer/buy_good/find_number_sql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/buyer/buy_good/look_good.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/buyer/buy_good/look_good_sql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/buyer/buy_good/new_order_sql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/buyer/delete_favorites/delete_favorites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/buyer/delete_favorites/delete_favorites_sql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/buyer/look_Favorites/look_favorites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/buyer/look_Favorites/look_favorites_sql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/public/get_user_info/get_user_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/public/get_user_info/get_user_info_sql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/public/modify_user_info/modify_user_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/public/modify_user_info/modify_user_info_sql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/user/modify_password/modify_password.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_detailed_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_detailed_sql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_id_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_id_sql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/order/look_order/look_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/order/look_order/look_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/order/look_order/look_order_super.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/order/look_order/look_order_super.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/seller/add_goods/add_good.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/seller/add_goods/add_good.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/seller/add_goods/add_photo/add_photo.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/seller/add_goods/add_photo/add_photo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/seller/add_goods/select_type/select_type.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/seller/add_goods/select_type/select_type.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/seller/delete_goods/delete_goods.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/seller/delete_goods/delete_goods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/seller/look_goods/look_good_id.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/seller/look_goods/look_good_id.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/seller/look_goods/look_good_like.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/seller/look_goods/look_good_like.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/seller/look_goods/look_goods.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/seller/look_goods/look_goods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/seller/ratings/delete_ratings.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/seller/ratings/delete_ratings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/seller/ratings/get_ratings.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/seller/ratings/get_ratings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/seller/ratings/modify_ratings.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/seller/ratings/modify_ratings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,13 +42,16 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/goods_sale$look_good_id_sql.coverage" NAME="look_good_id_sql Coverage Results" MODIFIED="1573828999848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/seller/look_goods" />
     <SUITE FILE_PATH="coverage/goods_sale$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1573660231638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/goods_sale$look_good_sql.coverage" NAME="look_good_sql Coverage Results" MODIFIED="1574830235585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/buyer/buy_good" />
     <SUITE FILE_PATH="coverage/goods_sale$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1573030229652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/goods_sale$public_get_goods_id_sql.coverage" NAME="public_get_goods_id_sql Coverage Results" MODIFIED="1574182403156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/public/public_get_goods" />
     <SUITE FILE_PATH="coverage/goods_sale$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1573657445771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/goods_sale$add_phone_sql.coverage" NAME="add_phone_sql Coverage Results" MODIFIED="1573701994865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/seller/add_goods" />
     <SUITE FILE_PATH="coverage/goods_sale$public_get_goods_detailed_sql.coverage" NAME="public_get_goods_detailed_sql Coverage Results" MODIFIED="1574155956145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/public/public_get_goods" />
     <SUITE FILE_PATH="coverage/goods_sale$public_get_goods_sql.coverage" NAME="public_get_goods_sql Coverage Results" MODIFIED="1574041601738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/public/public_get_goods" />
+    <SUITE FILE_PATH="coverage/goods_sale$get_user_info_sql.coverage" NAME="get_user_info_sql Coverage Results" MODIFIED="1574771880059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/public/get_user_info" />
     <SUITE FILE_PATH="coverage/goods_sale$app.coverage" NAME="app Coverage Results" MODIFIED="1573027327363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/goods_sale$look_favorites_sql.coverage" NAME="look_favorites_sql Coverage Results" MODIFIED="1574761693740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/buyer/look_Favorites" />
     <SUITE FILE_PATH="coverage/goods_sale$get_ratings_sql.coverage" NAME="get_ratings_sql Coverage Results" MODIFIED="1573882621830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/seller/ratings" />
     <SUITE FILE_PATH="coverage/goods_sale$look_goods_sql.coverage" NAME="look_goods_sql Coverage Results" MODIFIED="1573779693131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/seller/look_goods" />
     <SUITE FILE_PATH="coverage/goods_sale$test.coverage" NAME="test Coverage Results" MODIFIED="1573657538004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -46,32 +75,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="80" column="34" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
+            <state relative-caret-position="326">
+              <caret line="75" column="27" lean-forward="true" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
               <folding>
                 <element signature="e#15#51#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_id.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="3" column="46" lean-forward="true" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_id_sql.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -91,11 +102,14 @@
     <findStrings>
       <find>&quot;</find>
       <find>tup2</find>
+      <find>Uf</find>
+      <find>tup4</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
       <replace>result1</replace>
       <replace>result2</replace>
+      <replace>all_list</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -104,43 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/main/seller/add_goods/add_info_to_goodsmanagement.py" />
-        <option value="$PROJECT_DIR$/main/seller/add_goods/select_type/select_type_sql.py" />
-        <option value="$PROJECT_DIR$/main/seller/add_goods/add_photo/add_photo_sql.py" />
-        <option value="$PROJECT_DIR$/main/seller/add_goods/add_photo/add_photo.py" />
-        <option value="$PROJECT_DIR$/批量加状态.py" />
-        <option value="$PROJECT_DIR$/批量加库存.py" />
-        <option value="$PROJECT_DIR$/main/seller/add_goods/add_good.py" />
-        <option value="$PROJECT_DIR$/main/seller/add_goods/add_phone_sql.py" />
-        <option value="$PROJECT_DIR$/main/seller/delect_goods/delect_goods.py" />
-        <option value="$PROJECT_DIR$/main/seller/delete_goods/delete_goods.py" />
-        <option value="$PROJECT_DIR$/main/seller/look_goods/look_goods.py" />
-        <option value="$PROJECT_DIR$/main/seller/look_goods/look_good_id.py" />
-        <option value="$PROJECT_DIR$/main/seller/look_goods/look_good_like.py" />
-        <option value="$PROJECT_DIR$/main/seller/add_goods/add_book_sql.py" />
-        <option value="$PROJECT_DIR$/main/seller/add_goods/add_info_to_management_sql.py" />
-        <option value="$PROJECT_DIR$/main/seller/look_goods/look_goods_sql.py" />
-        <option value="$PROJECT_DIR$/main/seller/look_goods/look_good_id_sql.py" />
-        <option value="$PROJECT_DIR$/main/seller/look_goods/look_good_like_sql.py" />
-        <option value="$PROJECT_DIR$/main/seller/ratings/get_ratings.py" />
-        <option value="$PROJECT_DIR$/main/seller/ratings/get_ratings_sql.py" />
-        <option value="$PROJECT_DIR$/main/seller/ratings/modify_ratings_sql.py" />
-        <option value="$PROJECT_DIR$/main/seller/ratings/modify_ratings.py" />
-        <option value="$PROJECT_DIR$/main/seller/delete_goods/delete_goods_sql.py" />
-        <option value="$PROJECT_DIR$/main/seller/ratings/delect_ratings_sql.py" />
-        <option value="$PROJECT_DIR$/main/seller/ratings/delect_ratings.py" />
-        <option value="$PROJECT_DIR$/main/seller/ratings/delete_ratings_sql.py" />
-        <option value="$PROJECT_DIR$/main/seller/ratings/delete_ratings.py" />
-        <option value="$PROJECT_DIR$/main/order/look_order.py" />
-        <option value="$PROJECT_DIR$/main/order/look_order_sql.py" />
-        <option value="$PROJECT_DIR$/main/user/login/login.py" />
-        <option value="$PROJECT_DIR$/main/order/look_order_super_sql.py" />
-        <option value="$PROJECT_DIR$/main/order/look_order_super.py" />
-        <option value="$PROJECT_DIR$/main/order/look_order/look_order_super_sql.py" />
-        <option value="$PROJECT_DIR$/main/order/look_order/look_order_buyer_sql.py" />
-        <option value="$PROJECT_DIR$/main/order/look_order/look_order_buyer.py" />
-        <option value="$PROJECT_DIR$/main/order/look_order/look_order_super.py" />
-        <option value="$PROJECT_DIR$/main/order/look_order/look_order.py" />
         <option value="$PROJECT_DIR$/main/order/look_order/look_order_sql.py" />
         <option value="$PROJECT_DIR$/main/order/add_order.py" />
         <option value="$PROJECT_DIR$/main/order/add_order/add_order.py" />
@@ -151,10 +128,47 @@
         <option value="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_Detailed_sql.py" />
         <option value="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_sql.py" />
         <option value="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_detailed.py" />
-        <option value="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_id.py" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_detailed_sql.py" />
         <option value="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_id_sql.py" />
+        <option value="$PROJECT_DIR$/main/user/modify_password.py" />
+        <option value="$PROJECT_DIR$/main/buyer/add_Favorites/add_Favorites_py.py" />
+        <option value="$PROJECT_DIR$/main/buyer/look_Favorites/look_Favorites.py" />
+        <option value="$PROJECT_DIR$/main/buyer/look_Favorites/look_Favorites_sql.py" />
+        <option value="$PROJECT_DIR$/main/buyer/add_Favorites/add_Favorites.py" />
+        <option value="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_id.py" />
+        <option value="$PROJECT_DIR$/main/buyer/add_Favorites/add_favorites_sql.py" />
+        <option value="$PROJECT_DIR$/main/buyer/delete_favorites/delete_favorites_sql.py" />
+        <option value="$PROJECT_DIR$/main/public/get_user_info/get_user_info_sql.py" />
+        <option value="$PROJECT_DIR$/main/public/modify_user_info/modify_user_info_sql.py" />
+        <option value="$PROJECT_DIR$/main/user/login/login.py" />
+        <option value="$PROJECT_DIR$/main/buyer/look_Favorites/look_favorites.py" />
+        <option value="$PROJECT_DIR$/main/buyer/add_Favorites/add_favorites.py" />
+        <option value="$PROJECT_DIR$/main/buyer/delete_favorites/delete_favorites.py" />
+        <option value="$PROJECT_DIR$/main/seller/add_goods/select_type/select_type.py" />
+        <option value="$PROJECT_DIR$/main/seller/add_goods/add_good.py" />
+        <option value="$PROJECT_DIR$/main/seller/add_goods/add_photo/add_photo.py" />
+        <option value="$PROJECT_DIR$/main/seller/delete_goods/delete_goods.py" />
+        <option value="$PROJECT_DIR$/main/seller/look_goods/look_goods.py" />
+        <option value="$PROJECT_DIR$/main/seller/look_goods/look_good_id.py" />
+        <option value="$PROJECT_DIR$/main/seller/look_goods/look_good_like.py" />
+        <option value="$PROJECT_DIR$/main/seller/ratings/get_ratings.py" />
+        <option value="$PROJECT_DIR$/main/seller/ratings/modify_ratings.py" />
+        <option value="$PROJECT_DIR$/main/seller/ratings/delete_ratings.py" />
+        <option value="$PROJECT_DIR$/main/order/look_order/look_order.py" />
+        <option value="$PROJECT_DIR$/main/order/look_order/look_order_super.py" />
+        <option value="$PROJECT_DIR$/main/public/get_user_info/get_user_info.py" />
+        <option value="$PROJECT_DIR$/main/public/modify_user_info/modify_user_info.py" />
+        <option value="$PROJECT_DIR$/main/buyer/look_Favorites/look_favorites_sql.py" />
+        <option value="$PROJECT_DIR$/main/buyer/buy_good/buy_good_sql.py" />
+        <option value="$PROJECT_DIR$/main/buyer/buy_good/look_good_sql.py" />
+        <option value="$PROJECT_DIR$/main/buyer/buy_good/look_good.py" />
+        <option value="&lt;35f4a96c-d9fa-4785-bc33-80c179035641&gt;/home/flask/face/templates/student/get_face/get_photo.py" />
+        <option value="&lt;35f4a96c-d9fa-4785-bc33-80c179035641&gt;/home/flask/face/templates/student/get_face/save_photo.py" />
+        <option value="&lt;35f4a96c-d9fa-4785-bc33-80c179035641&gt;/home/flask/face/templates/teacher/face_distinguish/save_get_photo.py" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/main/buyer/buy_good/find_number_sql.py" />
+        <option value="$PROJECT_DIR$/main/buyer/buy_good/new_order_sql.py" />
+        <option value="$PROJECT_DIR$/main/buyer/buy_good/buy_good.py" />
       </list>
     </option>
   </component>
@@ -187,27 +201,20 @@
               <item name="goods_sale" type="b2602c69:ProjectViewProjectNode" />
               <item name="goods_sale" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="buyer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goods_sale" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goods_sale" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="buyer" type="462c0819:PsiDirectoryNode" />
+              <item name="buy_good" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="goods_sale" type="b2602c69:ProjectViewProjectNode" />
               <item name="goods_sale" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="public_get_goods" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="goods_sale" type="b2602c69:ProjectViewProjectNode" />
-              <item name="goods_sale" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="seller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="goods_sale" type="b2602c69:ProjectViewProjectNode" />
-              <item name="goods_sale" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="seller" type="462c0819:PsiDirectoryNode" />
-              <item name="look_goods" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="goods_sale" type="b2602c69:ProjectViewProjectNode" />
@@ -242,16 +249,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\goods_sale\templates\user\register" />
-      <recent name="D:\goods_sale\templates\user" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\goods_sale\main\user\modify_password" />
       <recent name="D:\goods_sale\main\public\public_get_goods" />
       <recent name="D:\goods_sale\main\order\look_order" />
       <recent name="D:\goods_sale\main\seller\add_goods" />
       <recent name="D:\goods_sale\main\seller\add_goods\add_good" />
-      <recent name="D:\goods_sale\main\seller\add_goods\select_type" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\goods_sale\templates\user\register" />
+      <recent name="D:\goods_sale\templates\user" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -266,8 +273,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.public_get_goods_id_sql">
-    <configuration name="get_ratings_sql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.look_good_sql">
+    <configuration name="get_user_info_sql" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="goods_sale" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -275,12 +282,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main/seller/ratings" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main/public/get_user_info" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/seller/ratings/get_ratings_sql.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/public/get_user_info/get_user_info_sql.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -289,7 +296,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="look_good_like_sql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="look_favorites_sql" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="goods_sale" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -297,12 +304,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main/seller/look_goods" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main/buyer/look_Favorites" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/seller/look_goods/look_good_like_sql.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/buyer/look_Favorites/look_favorites_sql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="look_good_sql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="goods_sale" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main/buyer/buy_good" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/buyer/buy_good/look_good_sql.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -355,28 +384,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="public_get_goods_sql" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="goods_sale" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main/public/public_get_goods" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_sql.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="goods_sale" type="Python.FlaskServer" factoryName="Flask server">
       <module name="goods_sale" />
       <option name="target" value="$PROJECT_DIR$/app.py" />
@@ -394,11 +401,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.look_good_sql" />
+        <item itemvalue="Python.get_user_info_sql" />
+        <item itemvalue="Python.look_favorites_sql" />
         <item itemvalue="Python.public_get_goods_id_sql" />
         <item itemvalue="Python.public_get_goods_detailed_sql" />
-        <item itemvalue="Python.public_get_goods_sql" />
-        <item itemvalue="Python.get_ratings_sql" />
-        <item itemvalue="Python.look_good_like_sql" />
       </list>
     </recent_temporary>
   </component>
@@ -437,12 +444,15 @@
       <workItem from="1574210408840" duration="1244000" />
       <workItem from="1574349105431" duration="599000" />
       <workItem from="1574584131372" duration="634000" />
-      <workItem from="1574696205212" duration="2880000" />
+      <workItem from="1574696205212" duration="3479000" />
+      <workItem from="1574738484698" duration="21466000" />
+      <workItem from="1574827273799" duration="13963000" />
+      <workItem from="1574875157641" duration="24000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122028000" />
+    <option name="totallyTimeSpent" value="158080000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -455,14 +465,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14765458" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15245202" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31453362" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2570499" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -482,13 +491,13 @@
       <window_info anchor="right" id="Database" order="5" weight="0.32995737" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18550107" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15085287" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2462039" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2570499" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
@@ -511,156 +520,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/user/register/ss.ipynb" />
-    <entry file="file://$PROJECT_DIR$/main/user/admin_seller/index.py" />
-    <entry file="file://$PROJECT_DIR$/test1.py" />
-    <entry file="file://$PROJECT_DIR$/main/user/out_login/out_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#15#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/user/register/verification_code/get_verification_code_base64.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#15#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/user/register/verification_code/verification_code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="28" column="20" lean-forward="true" selection-start-line="27" selection-end-line="29" selection-end-column="34" />
-          <folding>
-            <element signature="e#15#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/user/register/find_duplication_sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="111" selection-start-line="6" selection-start-column="111" selection-end-line="6" selection-end-column="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/user/register/register.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1508">
-          <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
-          <folding>
-            <element signature="e#15#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/user/register/register_sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="111" selection-start-line="8" selection-start-column="102" selection-end-line="8" selection-end-column="111" />
-          <folding>
-            <element signature="e#15#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/user/login/find_username_sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/seller/add_goods/select_type/select_type_sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="70" column="22" lean-forward="true" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/seller/add_goods/select_type/select_type.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="36" column="46" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="46" />
-          <folding>
-            <element signature="e#15#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/seller/add_goods/add_photo/add_photo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="40" />
-          <folding>
-            <element signature="e#15#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/批量加库存.py" />
-    <entry file="file://$PROJECT_DIR$/批量插入商品登记数据.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="e#15#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/seller/add_goods/add_photo/add_photo_sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/seller/add_goods/add_good.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="39" selection-end-column="9" />
-          <folding>
-            <element signature="e#15#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/seller/add_goods/add_phone_sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/seller/add_goods/add_book_sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="10" column="288" selection-start-line="10" selection-start-column="288" selection-end-line="10" selection-end-column="288" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/seller/add_goods/add_info_to_management_sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/seller/ratings/modify_ratings_sql.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -668,57 +527,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/seller/ratings/modify_ratings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="142" />
-          <folding>
-            <element signature="e#15#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/seller/delete_goods/delete_goods.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="42" column="15" lean-forward="true" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
-          <folding>
-            <element signature="e#15#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/seller/delete_goods/delete_goods_sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/seller/ratings/get_ratings_sql.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
           <caret line="61" selection-start-line="61" selection-end-line="62" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/seller/ratings/get_ratings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="37" selection-end-column="9" />
-          <folding>
-            <element signature="e#15#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/seller/ratings/delete_ratings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
-          <caret line="38" column="78" selection-start-line="38" selection-start-column="76" selection-end-line="38" selection-end-column="78" />
-          <folding>
-            <element signature="e#15#66#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -736,47 +548,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/user/login/login_sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="20" lean-forward="true" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/seller/look_goods/look_good_like.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="37" selection-end-column="9" />
-          <folding>
-            <element signature="e#15#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/order/look_order/look_order_super_sql.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="10" column="15" lean-forward="true" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/order/look_order/look_order_super.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="38" column="52" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
-          <folding>
-            <element signature="e#15#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/order/look_order/look_order.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="28" column="40" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="40" />
-          <folding>
-            <element signature="e#15#66#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -794,30 +569,6 @@
     <entry file="file://$PROJECT_DIR$/main/order/add_order/add_order_sql.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/seller/look_goods/look_goods.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="21" selection-end-line="37" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/seller/look_goods/look_goods_sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="32" lean-forward="true" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/user/login/login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="62" column="47" lean-forward="true" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
-          <folding>
-            <element signature="e#15#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/seller/look_goods/look_good_id_sql.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
@@ -825,10 +576,180 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_id_sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/user/register/register.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="e#15#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/user/modify_password/modify_password.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/public/public_get_goods/public_get_goods.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="390">
+          <caret line="15" column="61" lean-forward="true" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+          <folding>
+            <element signature="e#15#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_detailed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="e#15#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_id.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/user/login/login_sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="20" lean-forward="true" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/seller/add_goods/add_book_sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="9" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_detailed_sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-260">
+          <caret line="28" column="46" lean-forward="true" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/seller/delete_goods/delete_goods_sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/buyer/add_Favorites/add_favorites_sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/buyer/delete_favorites/delete_favorites_sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="93" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/public/get_user_info/get_user_info_sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/public/modify_user_info/modify_user_info_sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/user/login/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="66" column="26" lean-forward="true" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="53" />
+          <folding>
+            <element signature="e#15#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/buyer/add_Favorites/add_favorites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <element signature="e#15#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/buyer/delete_favorites/delete_favorites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+          <folding>
+            <element signature="e#15#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/seller/add_goods/select_type/select_type.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <folding>
+            <element signature="e#15#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/seller/add_goods/add_good.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+          <folding>
+            <element signature="e#15#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/seller/add_goods/add_photo/add_photo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+          <folding>
+            <element signature="e#15#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/seller/delete_goods/delete_goods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
           <folding>
             <element signature="e#15#66#0" expanded="true" />
           </folding>
@@ -837,56 +758,173 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/seller/look_goods/look_good_id.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="30" column="46" lean-forward="true" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+        <state relative-caret-position="520">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
           <folding>
             <element signature="e#15#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_sql.py">
+    <entry file="file://$PROJECT_DIR$/main/seller/look_goods/look_good_like.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+          <folding>
+            <element signature="e#15#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/seller/ratings/get_ratings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+          <folding>
+            <element signature="e#15#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/seller/ratings/modify_ratings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+          <folding>
+            <element signature="e#15#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/seller/ratings/delete_ratings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+          <folding>
+            <element signature="e#15#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/order/look_order/look_order.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+          <folding>
+            <element signature="e#15#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/order/look_order/look_order_super.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+          <folding>
+            <element signature="e#15#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/public/get_user_info/get_user_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+          <folding>
+            <element signature="e#15#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/public/modify_user_info/modify_user_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="20" />
+          <folding>
+            <element signature="e#15#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/seller/look_goods/look_goods_sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/seller/look_goods/look_goods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/buyer/look_Favorites/look_favorites_sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="57" selection-start-line="57" selection-end-line="58" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/buyer/look_Favorites/look_favorites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="38" column="10" lean-forward="true" selection-start-line="38" selection-end-line="38" selection-end-column="36" />
+          <folding>
+            <element signature="e#15#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/buyer/buy_good/look_good.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
-          <caret line="7" column="22" lean-forward="true" selection-end-line="38" />
+          <caret line="7" column="14" lean-forward="true" selection-end-line="38" selection-end-column="36" />
+          <folding>
+            <element signature="e#15#66#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_detailed_sql.py">
+    <entry file="file://$PROJECT_DIR$/main/buyer/buy_good/look_good_sql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="31" column="30" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="30" />
+        <state relative-caret-position="676">
+          <caret line="52" selection-start-line="52" selection-end-line="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_detailed.py">
+    <entry file="file://$PROJECT_DIR$/main/buyer/buy_good/find_number_sql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="49" lean-forward="true" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+        <state relative-caret-position="416">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/buyer/buy_good/new_order_sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-584">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+          <folding>
+            <element signature="e#15#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/buyer/buy_good/buy_good.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="80" column="34" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
+        <state relative-caret-position="326">
+          <caret line="75" column="27" lean-forward="true" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
           <folding>
             <element signature="e#15#51#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_id.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="46" lean-forward="true" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/public/public_get_goods/public_get_goods_id_sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
         </state>
       </provider>
     </entry>

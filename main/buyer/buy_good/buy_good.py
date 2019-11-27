@@ -2,15 +2,16 @@
 from flask import Blueprint, make_response, request
 from redis import StrictRedis
 import json
-from main.order.look_order.look_order_sql import look_order_sql
+from main.buyer.buy_good.find_number_sql import find_number_sql
+from main.buyer.buy_good.new_order_sql import new_order_sql
 
 
 # 创建一个蓝图的对象，蓝图就是一个小模块的概念
-look_order = Blueprint("look_order", __name__)
+buy_good = Blueprint("buy_good", __name__)
 
 
-@look_order.route('/look_order', methods=['POST', 'GET'])
-def look_order_fun():
+@buy_good.route('/buy_good', methods=['POST', 'GET'])
+def buy_good_fun():
     # 获取请求头的数据
     get_data = request.json
     # 获取头部信息
@@ -37,9 +38,22 @@ def look_order_fun():
     # token对比成功
     else:
         redis.expire(username, 3600)
-        order_list = look_order_sql(get_data['content'], username)
-        if len(order_list) == 0:
-            post_data = {'info': '未查询到任何结果'}
+        good_id = []
+        good_number = []
+        good_type = []
+        content = get_data['content']
+        for i in range(len(content)):
+            if content[i]['ID'] in good_id:
+                good_index = good_id.index(content[i]['ID'])
+                number = good_number[good_index] + content[i]['number']
+                good_number[good_index] = number
+            else:
+                good_id.append(content[i]['ID'])
+                good_number.append(content[i]['number'])
+                good_type.append(content[i]['type'])
+        status = find_number_sql(good_id, good_number, good_type)
+        if status == 0:
+            post_data = {'info': '库存不足，请重新选择商品'}
             #  返回的内容
             response = make_response(json.dumps(post_data))
             #  返回的json格式设定
@@ -48,7 +62,8 @@ def look_order_fun():
             response.status_code = 403
             return response
         else:
-            post_data = {'order_list': order_list}
+            new_order_sql(good_id, good_number, good_type, username)
+            post_data = {'info': '订单生成成功'}
             #  返回的内容
             response = make_response(json.dumps(post_data))
             #  返回的json格式设定

@@ -36,6 +36,7 @@ def get_ratings_fun():
         return response
     # token对比成功
     else:
+        redis.expire(username, 3600)
         ratings_content = get_ratings_sql(get_data['type'], get_data['good_id'])
         if len(ratings_content) == 0:
             post_data = {'info': '未查询到任何评论'}

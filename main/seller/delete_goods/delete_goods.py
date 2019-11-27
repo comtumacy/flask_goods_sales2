@@ -36,6 +36,7 @@ def delete_goods_fun():
         return response
     # token对比成功
     else:
+        redis.expire(username, 3600)
         if get_data['type'] == 1:
             table_name = 'bookinfo'
         else:

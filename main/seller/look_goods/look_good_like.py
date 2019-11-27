@@ -36,6 +36,7 @@ def look_goods_fun():
         return response
     # token对比成功
     else:
+        redis.expire(username, 3600)
         look_goods_list = look_good_like_sql(get_data['findContent'], username)
         if len(look_goods_list) == 0:
             post_data = {'info': '未查询到商品信息'}

@@ -37,6 +37,7 @@ def add_photo_fun():
         return response
     # token对比成功
     else:
+        redis.expire(username, 3600)
         # 创建图片文件夹
         path = '/home/flask/goods_sale/static/goods_photo/{}'.format(get_data['good_id'])
         is_exists = os.path.exists(path)

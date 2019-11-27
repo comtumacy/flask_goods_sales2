@@ -36,6 +36,7 @@ def look_good_id_fun():
         return response
     # token对比成功
     else:
+        redis.expire(username, 3600)
         look_goods_list = look_good_id_sql(get_data['type'], get_data['good_id'], username)
         if look_goods_list == 'null':
             post_data = {'info': '查询失败，请检查是否有此商品ID'}

@@ -2,15 +2,15 @@
 from flask import Blueprint, make_response, request
 from redis import StrictRedis
 import json
-from main.seller.look_goods.look_goods_sql import look_goods_sql
+from main.public.get_user_info.get_user_info_sql import get_user_info_sql
 
 
 # 创建一个蓝图的对象，蓝图就是一个小模块的概念
-look_goods = Blueprint("look_goods", __name__)
+get_user_info = Blueprint("get_user_info", __name__)
 
 
-@look_goods.route('/look_goods', methods=['POST', 'GET'])
-def look_goods_fun():
+@get_user_info.route('/get_user_info', methods=['POST', 'GET'])
+def get_user_info_fun():
     # 获取请求头的数据
     # get_data = request.json
     # 获取头部信息
@@ -37,8 +37,8 @@ def look_goods_fun():
     # token对比成功
     else:
         redis.expire(username, 3600)
-        look_goods_list = look_goods_sql(username)
-        post_data = {'info': '用户{}商品数据查询成功'.format(username), 'lookGoodsList': look_goods_list}
+        content = get_user_info_sql(username)
+        post_data = {'content': content}
         #  返回的内容
         response = make_response(json.dumps(post_data))
         #  返回的json格式设定

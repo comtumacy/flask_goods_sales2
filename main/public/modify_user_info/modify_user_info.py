@@ -2,17 +2,17 @@
 from flask import Blueprint, make_response, request
 from redis import StrictRedis
 import json
-from main.seller.look_goods.look_goods_sql import look_goods_sql
+from main.public.modify_user_info.modify_user_info_sql import modify_user_info_sql
 
 
 # 创建一个蓝图的对象，蓝图就是一个小模块的概念
-look_goods = Blueprint("look_goods", __name__)
+modify_user_info = Blueprint("modify_user_info", __name__)
 
 
-@look_goods.route('/look_goods', methods=['POST', 'GET'])
-def look_goods_fun():
+@modify_user_info.route('/modify_user_info', methods=['POST', 'GET'])
+def modify_user_info_fun():
     # 获取请求头的数据
-    # get_data = request.json
+    get_data = request.json
     # 获取头部信息
     username = request.headers.get('Uname')
     token = request.headers.get('token')
@@ -37,8 +37,8 @@ def look_goods_fun():
     # token对比成功
     else:
         redis.expire(username, 3600)
-        look_goods_list = look_goods_sql(username)
-        post_data = {'info': '用户{}商品数据查询成功'.format(username), 'lookGoodsList': look_goods_list}
+        modify_user_info_sql(get_data['sex'], get_data['province'], get_data['city'], get_data['phone'], get_data['trueName'], get_data['address'], get_data['postalCode'], get_data['email'], get_data['codeTypes'], get_data['codenumber'], username)
+        post_data = {'info': '修改成功'}
         #  返回的内容
         response = make_response(json.dumps(post_data))
         #  返回的json格式设定
@@ -46,3 +46,4 @@ def look_goods_fun():
         #  设置HTTP状态码
         response.status_code = 200
         return response
+
