@@ -2,15 +2,15 @@
 from flask import Blueprint, make_response, request
 from redis import StrictRedis
 import json
-from main.order.look_order.look_order_super_sql import look_order_super_sql
+from main.public.find_rating.find_rating_sql import find_rating_sql
 
 
 # 创建一个蓝图的对象，蓝图就是一个小模块的概念
-look_order_super = Blueprint("look_order_super", __name__)
+find_rating = Blueprint("find_rating", __name__)
 
 
-@look_order_super.route('/look_order_super', methods=['POST', 'GET'])
-def look_order_super_fun():
+@find_rating.route('/find_rating', methods=['POST', 'GET'])
+def find_rating_fun():
     # 获取请求头的数据
     get_data = request.json
     # 获取头部信息
@@ -37,9 +37,9 @@ def look_order_super_fun():
     # token对比成功
     else:
         redis.expire(username, 3600)
-        order_list, page = look_order_super_sql(get_data['content'], get_data['pageNumber'])
-        if len(order_list) == 0:
-            post_data = {'info': '未查询到任何结果'}
+        page_number, content = find_rating_sql(username, get_data['pageNumber'], get_data['content'])
+        if len(content) == 0:
+            post_data = {'info': '未搜索到任何评论'}
             #  返回的内容
             response = make_response(json.dumps(post_data))
             #  返回的json格式设定
@@ -48,7 +48,7 @@ def look_order_super_fun():
             response.status_code = 403
             return response
         else:
-            post_data = {'content': order_list, 'pageAllNumber': page}
+            post_data = {'content': content, 'pageNumber': page_number}
             #  返回的内容
             response = make_response(json.dumps(post_data))
             #  返回的json格式设定

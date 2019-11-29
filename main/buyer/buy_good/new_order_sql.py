@@ -81,7 +81,7 @@ def new_order_sql(good_id, good_number, good_type, username):
         conn = pymysql.connect(host='139.155.33.105', port=2707, user='root', password='Liyitong97!', db='goodsorder',
                                charset='utf8')
         cursor = conn.cursor()
-        sql6 = "INSERT INTO `order` (goodid,goodname,`number`,`status`,price,`date`,buyer,seller,address,tel) VALUES ({},'{}',{},{},{},'{}','{}','{}','{}','{}')".format(good_id[i], title, good_number[i], 1, price * good_number[i], time_now, username, seller, address, phone)
+        sql6 = "INSERT INTO `order` (goodid,goodname,`number`,`status`,price,`date`,buyer,seller,address,tel) VALUES ({},'{}',{},'{}',{},'{}','{}','{}','{}','{}')".format(good_id[i], title, good_number[i], '待付款', price * good_number[i], time_now, username, seller, address, phone)
         cursor.execute(sql6)
         conn.commit()
         cursor.close()

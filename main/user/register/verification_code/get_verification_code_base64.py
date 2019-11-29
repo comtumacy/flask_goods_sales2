@@ -59,6 +59,7 @@ def get_verification_code_base64():
         str = str + random_char
         # 在图片上一次写入得到的随机字符串,参数是：定位，字符串，颜色，字体
         draw.text((10 + i * 30, 0), random_char, get_random_color(), font=font)
+        draw.text((10 + i * 30, 0), random_char, (0, 41, 80), font=font)
 
     # 噪点噪线
     width = 150

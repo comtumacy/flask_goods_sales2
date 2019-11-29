@@ -3,14 +3,13 @@ import pymysql
 
 
 # 获取订单信息
-def look_order_super_sql(date_content, page_number):
+def get_order_sql(username, page_number):
     conn = pymysql.connect(host='139.155.33.105', port=2707, user='root', password='Liyitong97!',  db='goodsorder',
                            charset='utf8')
     cursor = conn.cursor()
-    sql1 = "SELECT * FROM `order` WHERE goodid LIKE '%{}%' OR buyer LIKE '%{}%' OR date LIKE '%{}%' order by `orderid` LIMIT {}, 10;".format(date_content, date_content, date_content, (int(page_number) - 1) * 10)
-    print(sql1)
+    sql1 = "SELECT * FROM `order` WHERE `buyer` = '{}' OR `seller` = '{}' order by `orderid` LIMIT {}, 10;".format(username, username, (int(page_number) - 1) * 10)
     sql2 = "SHOW full COLUMNS FROM `order`"
-    sql3 = "SELECT * FROM `order` WHERE goodid LIKE '%{}%' OR buyer LIKE '%{}%' OR date LIKE '%{}%' order by `orderid`".format(date_content, date_content, date_content)
+    sql3 = "SELECT COUNT(*) FROM `order` WHERE `buyer` = '{}' OR `seller` = '{}';".format(username, username)
     cursor.execute(sql1)
     conn.commit()
     result1 = cursor.fetchall()
@@ -35,7 +34,9 @@ def look_order_super_sql(date_content, page_number):
             tup_list = list(result1[i])
             all_dict = dict(zip(result2list, tup_list))
             all_list.append(all_dict)
-
     cursor.close()
     conn.close()
     return all_list, result3
+
+
+# get_order_sql('lytlyt')

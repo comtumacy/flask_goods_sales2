@@ -2,15 +2,15 @@
 from flask import Blueprint, make_response, request
 from redis import StrictRedis
 import json
-from main.seller.ratings.modify_ratings_sql import modify_ratings_sql
+from main.order.get_order.get_order_sql import get_order_sql
 
 
 # 创建一个蓝图的对象，蓝图就是一个小模块的概念
-modify_ratings = Blueprint("modify_ratings", __name__)
+get_order = Blueprint("get_order", __name__)
 
 
-@modify_ratings.route('/modify_ratings', methods=['POST', 'GET'])
-def modify_ratings_fun():
+@get_order.route('/get_order', methods=['POST', 'GET'])
+def get_order_fun():
     # 获取请求头的数据
     get_data = request.json
     # 获取头部信息
@@ -37,8 +37,8 @@ def modify_ratings_fun():
     # token对比成功
     else:
         redis.expire(username, 3600)
-        modify_ratings_sql(get_data['type'], get_data['text'], get_data['start'], get_data['to_examine'], get_data['good_id'], get_data['no'])
-        post_data = {'info': '修改成功'}
+        content, page = get_order_sql(username, get_data['pageNumber'])
+        post_data = {'content': content, 'pageAllNumber': page}
         #  返回的内容
         response = make_response(json.dumps(post_data))
         #  返回的json格式设定
@@ -46,3 +46,4 @@ def modify_ratings_fun():
         #  设置HTTP状态码
         response.status_code = 200
         return response
+
