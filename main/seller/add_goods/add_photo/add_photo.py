@@ -3,7 +3,7 @@ from flask import Blueprint, make_response, request
 from redis import StrictRedis
 import json
 import os
-import base64
+# import base64
 from main.seller.add_goods.add_photo.add_photo_sql import add_photo_sql
 
 # 创建一个蓝图的对象，蓝图就是一个小模块的概念
@@ -59,7 +59,7 @@ def add_photo_fun():
         # # photo_url = 'https://yitongli.cn/goods_photo/{}/good.jpg'.format(get_data['good_id'])
         photo_url = 'http://139.155.33.105/goods_photo/{}/good.jpg'.format(good_id)
         # 判断插入图片的类型
-        if photo_type == 1:
+        if int(photo_type) == 1:
             table_name = 'bookinfo'
         else:
             table_name = 'phoneinfo'

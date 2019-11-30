@@ -3,20 +3,24 @@ import pymysql
 
 
 # 查询卖家商品信息
-def look_goods_sql(username):
+def look_goods_sql(username, page_number):
     look_goods_list = []
     for k in range(2):
         conn = pymysql.connect(host='139.155.33.105', port=2707, user='root', password='Liyitong97!', db='goodsseller',
                                charset='utf8')
         cursor = conn.cursor()
-        sql1 = "SELECT * FROM `goodsmanagement` WHERE sellername = '{}' AND goodstype LIKE '{}%' ORDER BY goodstype ASC".format(username, k + 1)
+        sql1 = "SELECT * FROM `goodsmanagement` WHERE sellername = '{}' AND goodstype LIKE '{}%' ORDER BY goodstype ASC LIMIT {}, 10".format(username, k + 1, (int(page_number) - 1) * 10)
         sql2 = "SHOW full COLUMNS FROM `goodsmanagement`"
+        sql4 = "SELECT COUNT(*) FROM `goodsmanagement` WHERE sellername = '{}' AND goodstype LIKE '{}%' ORDER BY goodstype ASC LIMIT {}, 10".format(username, k + 1, (int(page_number) - 1) * 10)
         cursor.execute(sql1)
         conn.commit()
         result1 = cursor.fetchall()
         cursor.execute(sql2)
         conn.commit()
         result2 = cursor.fetchall()
+        cursor.execute(sql4)
+        conn.commit()
+        result4 = cursor.fetchall()[0][0]
 
         # 获取全部数据
         print('获取全部数据...')
@@ -66,7 +70,7 @@ def look_goods_sql(username):
         look_goods_list.append({table_name: return_list})
         cursor.close()
         conn.close()
-    return look_goods_list
+    return look_goods_list, result4
 
 
 # look_goods_sql('seller0')

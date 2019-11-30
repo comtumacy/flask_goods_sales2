@@ -12,7 +12,7 @@ look_goods = Blueprint("look_goods", __name__)
 @look_goods.route('/look_goods', methods=['POST', 'GET'])
 def look_goods_fun():
     # 获取请求头的数据
-    # get_data = request.json
+    get_data = request.json
     # 获取头部信息
     username = request.headers.get('Uname')
     token = request.headers.get('token')
@@ -37,8 +37,8 @@ def look_goods_fun():
     # token对比成功
     else:
         redis.expire(username, 3600)
-        look_goods_list = look_goods_sql(username)
-        post_data = {'info': '用户{}商品数据查询成功'.format(username), 'lookGoodsList': look_goods_list}
+        look_goods_list, page = look_goods_sql(username, get_data['pageNumber'])
+        post_data = {'info': '用户{}商品数据查询成功'.format(username), 'lookGoodsList': look_goods_list, 'pageAllNumber': page}
         #  返回的内容
         response = make_response(json.dumps(post_data))
         #  返回的json格式设定

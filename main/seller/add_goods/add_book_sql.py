@@ -8,7 +8,7 @@ def add_book_sql(good_id, name, price, discount, old_price, author, area, publis
                            charset='utf8')
     try:
         cursor = conn.cursor()
-        sql1 = "INSERT INTO bookinfo (goodId,`Name`,Price,Discount,Old_price,Author,Area,Publishing_time,Open_book,Paper,Packing,Suit,Introduction,book_img,Stid,NewAndOldDegree,`number`) VALUES({},'{}',{},{},{},'{}','{}','{}','{}','{} ','{}','{}','{}','{}',{},{},{}})".format(int(good_id), name, price, discount, old_price, author, area, publishing_time, open_book, paper, packing, suit, introduction, book_img, stid, new_and_old_degree, number)
+        sql1 = "INSERT INTO bookinfo (goodId,`Name`,Price,Discount,Old_price,Author,Area,Publishing_time,Open_book,Paper,Packing,Suit,Introduction,book_img,Stid,NewAndOldDegree,`number`) VALUES({},'{}',{},{},{},'{}','{}','{}','{}','{} ','{}','{}','{}','{}',{},{},{})".format(int(good_id), name, float(price), float(discount), float(old_price), author, area, publishing_time, open_book, paper, packing, suit, introduction, book_img, int(stid), int(new_and_old_degree), int(number))
         cursor.execute(sql1)
         conn.commit()
         status = 1

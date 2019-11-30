@@ -40,7 +40,7 @@ def add_good_fun():
     else:
         redis.expire(username, 3600)
         # 类型为书籍
-        if get_data['type'] == 1:
+        if int(get_data['type']) == 1:
             status = add_book_sql(get_data['good_id'], get_data['name'], get_data['price'], get_data['discount'], get_data['old_price'], get_data['author'], get_data['area'], get_data['publishing_time'], get_data['open_book'], get_data['paper'], get_data['packing'], get_data['suit'], get_data['introduction'], get_data['book_img'], get_data['stid'], get_data['new_and_old_degree'], get_data['number'])
             if status == 1:
                 add_info_to_management_sql(username, get_data['good_id'], get_data['stid'], time.strftime("%Y-%m-%d", time.localtime()))
