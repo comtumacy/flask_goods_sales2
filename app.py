@@ -50,6 +50,7 @@ from main.public.judge_user.judge_user import judge_user  # 判断用户类型
 from main.public.look_rating.look_rating import look_rating  # 查看评论
 from main.public.find_rating.find_rating import find_rating  # 搜索评论
 from main.public.modify_rating.modify_ratings import modify_ratings  # 修改评论
+from main.public.search_good.search_good import search_good  # 模糊搜索商品
 
 
 # 设置SECRET_KEY为随机数
@@ -111,7 +112,8 @@ app.register_blueprint(judge_user, url_prefix='/public')  # 判断用户类型
 app.register_blueprint(look_rating, url_prefix='/public')  # 查看评论
 app.register_blueprint(find_rating, url_prefix='/public')  # 搜索评论
 app.register_blueprint(modify_ratings, url_prefix='/public')  # 修改评论
+app.register_blueprint(search_good, url_prefix='/public')  # 模糊搜索商品
 
 if __name__ == '__main__':
-    app.run(host='172.27.0.13', port=5002, debug=True)
-    # app.run()
+    # app.run(host='172.27.0.13', port=5002, debug=True)
+    app.run()
