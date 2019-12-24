@@ -33,6 +33,8 @@ from main.seller.look_goods.look_good_like import look_good_like  # 模糊查找
 # 卖家模块---评论
 from main.seller.ratings.get_ratings import get_ratings  # 根据商品ID获取评论
 from main.seller.ratings.delete_ratings import delete_ratings  # 根据商品id删除评论
+# 卖家模块---报表
+from main.seller.get_reports.stock_reports import stock_reports # 查询库存种类-数量
 # 订单模块
 # 订单模块---查询订单
 from main.order.get_order.get_order import get_order  # 获取订单
@@ -95,6 +97,8 @@ app.register_blueprint(look_good_like, url_prefix='/seller')  # 模糊查找此�
 # 卖家模块---评论
 app.register_blueprint(get_ratings, url_prefix='/seller')  # 根据商品ID获取评论
 app.register_blueprint(delete_ratings, url_prefix='/seller')  # 根据商品id删除评论
+# 卖家模块---报表
+app.register_blueprint(stock_reports, url_prefix='/seller')  # 查询库存种类-数量
 # 订单模块
 # 订单模块---查询订单
 app.register_blueprint(get_order, url_prefix='/order')  # 获取订单
