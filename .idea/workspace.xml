@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36a4c71f-236a-42fa-8595-e492a70b2638" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/seller/get_reports/stock_reports.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/seller/get_reports/stock_reports_sql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/seller/get_reports/stock_reports_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/seller/get_reports/stock_reports_sql.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1742">
-              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="1222">
+              <caret line="100" column="36" selection-start-line="100" selection-start-column="23" selection-end-line="100" selection-end-column="36" />
               <folding>
                 <element signature="e#15#51#0" expanded="true" />
               </folding>
@@ -66,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/seller/get_reports/stock_reports.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="37" column="36" lean-forward="true" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+            <state relative-caret-position="-324">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="e#15#66#0" expanded="true" />
               </folding>
@@ -78,14 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/seller/look_goods/look_goods.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/seller/get_reports/stock_reports_sql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="40" column="8" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="118" />
-              <folding>
-                <element signature="e#15#66#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="494">
+              <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -108,6 +103,7 @@
       <find>Uf</find>
       <find>tup4</find>
       <find>result3</find>
+      <find>type</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -118,6 +114,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -169,10 +168,10 @@
         <option value="$PROJECT_DIR$/main/user/register/verification_code/get_verification_code_base64.py" />
         <option value="$PROJECT_DIR$/main/public/search_good/search_good.py" />
         <option value="$PROJECT_DIR$/main/public/search_good/search_good_sql.py" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/main/seller/get_reports/stock_reports_sql.py" />
         <option value="$PROJECT_DIR$/main/seller/get_reports/stock_reports.py" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/main/seller/get_reports/stock_reports_sql.py" />
       </list>
     </option>
   </component>
@@ -448,12 +447,28 @@
       <workItem from="1576486250602" duration="4000" />
       <workItem from="1576765667848" duration="287000" />
       <workItem from="1577203713908" duration="245000" />
-      <workItem from="1577203996880" duration="4696000" />
+      <workItem from="1577203996880" duration="5941000" />
+      <workItem from="1577246189029" duration="2302000" />
     </task>
+    <task id="LOCAL-00001" summary="20191225">
+      <created>1577208717704</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577208717704</updated>
+    </task>
+    <task id="LOCAL-00002" summary="20191225">
+      <created>1577209917587</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577209917587</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218230000" />
+    <option name="totallyTimeSpent" value="221777000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -466,14 +481,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.13432837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2624729" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2624729" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -520,6 +534,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="20191225" />
+    <option name="LAST_COMMIT_MESSAGE" value="20191225" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -890,16 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1742">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
-          <folding>
-            <element signature="e#15#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/seller/look_goods/look_goods_sql.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
@@ -914,16 +922,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/seller/get_reports/stock_reports_sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-182">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/seller/look_goods/look_goods.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
+        <state relative-caret-position="508">
           <caret line="40" column="8" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="118" />
           <folding>
             <element signature="e#15#66#0" expanded="true" />
@@ -931,13 +932,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1222">
+          <caret line="100" column="36" selection-start-line="100" selection-start-column="23" selection-end-line="100" selection-end-column="36" />
+          <folding>
+            <element signature="e#15#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/seller/get_reports/stock_reports.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="37" column="36" lean-forward="true" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+        <state relative-caret-position="-324">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="e#15#66#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/seller/get_reports/stock_reports_sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="48" />
         </state>
       </provider>
     </entry>

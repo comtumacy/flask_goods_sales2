@@ -22,7 +22,7 @@ def stock_reports_sql(username):
                 stock_reports_list[j]['value'] = stock_reports_list[j]['value'] + 1
                 sign = 1
         if sign == 0:
-            stock_reports_list.append({'type': stock_reports_list_all[i], 'value': 1})
+            stock_reports_list.append({'name': stock_reports_list_all[i], 'value': 1})
     print(stock_reports_list)
     cursor.close()
     conn.close()
@@ -31,11 +31,11 @@ def stock_reports_sql(username):
                            charset='utf8')
     cursor = conn.cursor()
     for i in range(len(stock_reports_list)):
-        sql1 = "SELECT Stname FROM `shoptype` WHERE Stid = {}".format(stock_reports_list[i]['type'])
+        sql1 = "SELECT Stname FROM `shoptype` WHERE Stid = {}".format(stock_reports_list[i]['name'])
         cursor.execute(sql1)
         conn.commit()
         result1 = cursor.fetchall()
-        stock_reports_list[i]['type'] = result1[0][0]
+        stock_reports_list[i]['name'] = result1[0][0]
     cursor.close()
     conn.close()
     return stock_reports_list
